@@ -1,0 +1,112 @@
+/* style.css */
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Title */
+.stTitle {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #fff;
+    animation: fadeIn 2s ease-out;
+}
+
+/* Main container */
+.stContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Elements */
+.stForm label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.stTextInput input, .stSelectbox select {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.stTextInput input:focus, .stSelectbox select:focus {
+    transform: scale(1.05);
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 172, 255, 0.6);
+}
+
+.stButton button {
+    background-color: #0072ff;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.stButton button:hover {
+    background-color: #00c6ff;
+    transform: scale(1.05);
+}
+
+/* Animation for fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Exit button and confirmation message */
+.exit-button {
+    background-color: #ff6f61;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.exit-button:hover {
+    background-color: #ff4c3b;
+    transform: scale(1.05);
+}
+
+/* Success message styling */
+.stSuccess {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

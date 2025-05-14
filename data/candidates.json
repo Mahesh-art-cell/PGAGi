@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Mahesh",
+    "email": "mahesh@gmail.com",
+    "experience": 1,
+    "role": "Frontend Developer",
+    "questions": "These questions aim to assess a frontend developer's foundational knowledge and problem-solving skills after one year of experience.  They avoid overly complex scenarios while still probing understanding.\n\n1. **Explain the difference between `==` and `===` in JavaScript, and provide an example where using the wrong one could lead to a bug.**  (Tests understanding of loose vs. strict equality, a common source of errors.)\n\n2. **You're building a simple to-do list application. Describe how you would handle adding, deleting, and updating to-do items using JavaScript and the DOM. You can use pseudocode or a brief code example to illustrate your approach.** (Assesses understanding of DOM manipulation and basic application logic. Doesn't require a full implementation, but shows problem-solving skills.)\n\n3. **Explain the concept of event delegation and how it improves performance compared to attaching event listeners to individual elements.** Provide a practical scenario where event delegation would be beneficial. (Tests understanding of performance optimization and event handling best practices.)\n\n4. **Describe your experience with at least one popular JavaScript framework or library (React, Angular, Vue.js, etc.).  Focus on a specific feature or concept you found challenging to learn and how you overcame that challenge.** (Assesses practical experience with frameworks and ability to reflect on the learning process.  Focuses on the *challenge* to reveal problem-solving abilities, not just rote memorization of features.)\n\n5. **Imagine you're working on a website and notice that page load times are slow. Describe several approaches you would take to diagnose the problem and identify potential performance bottlenecks.** (Tests debugging and performance optimization skills, showing a practical understanding of frontend performance issues beyond just using frameworks.)\n"
+  },
+  {
+    "name": "Mahesh",
+    "email": "mahesh@gmail.com",
+    "experience": 1,
+    "role": "Backend Developer",
+    "questions": "These questions aim to assess a backend developer with one year of experience, focusing on foundational knowledge and practical application rather than deep expertise in niche technologies.\n\n1. **Database Design:** \"Imagine you're building a system to track user blog posts, including comments. Design a relational database schema for this.  Consider relevant tables, columns (including data types), and relationships between them.  Explain your choices regarding primary and foreign keys, and how you'd handle potential normalization issues.\"  *(This assesses database design fundamentals, normalization understanding, and relational database concepts)*\n\n2. **API Design and REST:** \"Describe the RESTful principles.  Design a RESTful API endpoint for retrieving a single blog post by its unique ID.  Include the HTTP method, request parameters (if any), response status codes (success and failure scenarios), and the expected JSON response structure.  Explain why you chose specific HTTP methods and status codes.\" *(This tests knowledge of RESTful API design, HTTP methods, status codes, and JSON structure)*\n\n3. **Error Handling:** \"You're working on a backend service that fetches data from an external API.  Describe how you would handle potential errors such as network failures, API rate limiting, or invalid data returned from the API.  Provide specific examples of error handling techniques you would employ and how you would communicate errors to the client (e.g., through HTTP status codes and error messages).\" *(This assesses practical error handling skills, focusing on resilience and proper error reporting)*\n\n4. **Concurrency and Threading (or Asynchronous Programming):** \"Explain the concept of concurrency or asynchronous programming in the context of a backend system.  Give a scenario where using concurrency would improve performance, and describe how you would implement it (e.g., using threads, asynchronous functions, or a message queue). Mention potential challenges and how to mitigate them.\" *(This probes understanding of concurrency/asynchronous programming, a crucial concept for modern backend systems.  The specific implementation details are less important than the understanding of concepts and tradeoffs)*\n\n5. **Debugging and Logging:**  \"You've deployed a new backend service, and users are reporting intermittent errors.  Describe your approach to debugging this issue.  What tools or techniques would you use?  How would you use logging effectively to track down the problem and gather relevant information?\" *(This evaluates problem-solving skills, debugging approaches, and the importance of proper logging for maintainability and troubleshooting)*\n\n\nThese questions are open-ended to encourage discussion and allow the candidate to showcase their problem-solving abilities and explain their reasoning.  The interviewer should follow up with clarifying questions based on the candidate's responses. Remember to adjust the difficulty and specific technologies based on the job description and the candidate's resume.\n"
+  },
+  {
+    "name": "Mahesh",
+    "email": "mahesh@gmail.com",
+    "education": "BTech",
+    "experience": 1,
+    "role": "Full-Stack Developer"
+  },
+  {
+    "name": "Mahesh",
+    "email": "mahesh@gmail.com",
+    "job_role": "Data Scientist"
+  },
+  {
+    "name": "mani",
+    "email": "mani@gmail.com",
+    "job_role": "Software Engineer"
+  },
+  {
+    "name": "nivas",
+    "email": "nivas@gmail.com",
+    "job_role": "Software Engineer"
+  }
+]
