@@ -1,26 +1,10 @@
-# import google.generativeai as genai
-# import os
-
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-
-# # Use Gemini 1.5 Pro, the correct and available model
-# model = genai.GenerativeModel('gemini-1.5-pro-latest')
-
-# chat = model.start_chat(history=[])
-
-# def get_gemini_response(prompt):
-#     response = chat.send_message(prompt)
-#     return response.text
-
-
 import os
 import json
+import streamlit as st
 import google.generativeai as genai
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
+# ✅ Use secrets (Streamlit Cloud method)
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 # Configure Gemini API
 genai.configure(api_key=API_KEY)
